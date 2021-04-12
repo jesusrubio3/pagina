@@ -325,6 +325,7 @@ section{
     display: block;
     float: left;
     clear: both;
+    width: 35%;
 }
 
 section .padel{
@@ -332,7 +333,7 @@ section .padel{
     border-bottom: 1px solid black;
 }
 
-#clearfix{
+.clearfix{
     clear: both;
     float: none;
     padding-top: 2%;
