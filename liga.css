@@ -339,6 +339,14 @@ section p{
     font-size: 1rem;
 }
 
+td{display: block;}
+
+table,td,th{border: 1px solid black;}
+table{margin: 0px auto;}
+tr{float: left;}
+td{width: 8.3rem;
+height: 2.3rem;}
+
 footer
 {
     width: 100%;
