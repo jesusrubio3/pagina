@@ -180,7 +180,7 @@ body
 
 #contents {
     width: 80%;
-    height: 100vh;
+    height: 200vh;
     margin: 0px auto;
     margin-top: 3%;
     background-image: url(./imagenes/paven.png);
@@ -189,10 +189,11 @@ body
 
 #aside{
     width: 20%;
-    height: 100%;
+    min-height: 50%;
     margin-left: 2%;
     padding-top: 2%;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    float: left;
 }
 
 #aside .widget
@@ -200,15 +201,17 @@ body
     
     display: block;
     width: 80%;
-    height: 23%;
+    min-height: 15%;
     margin: 5px auto;
     padding: 8px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 14px;
     border-bottom: 1px solid #333;
+    margin-bottom: 3%;
     
 }
+
 
 #aside .widget form label,
 #aside .widget form input{
@@ -222,9 +225,18 @@ body
     
 }
 
+#login{
+    margin-bottom: 5%;
+}
+
 #aside div input[type="submit"]:hover{
     
     cursor: pointer;
+}
+
+#aside div input[type="text"],
+#aside div input[type="password"]{
+    width: 80%;
 }
 
 #aside ol li{
@@ -267,7 +279,7 @@ body
 #about a{
     text-decoration: none;
     margin-left: 5%;
-    font-size: 1.2rem;
+    font-size: 100%;
     color: black;
 }
 
@@ -288,6 +300,62 @@ body
     position: absolute; 
     
     margin: 0px;
-    margin-left: 1%;
+    margin-left: 2%;
     margin-top: 3.5%;
+}
+
+#about{
+    
+    min-height: 23vh !important;
+}
+
+section{
+    float: right;
+    width: 65%;
+    height:98%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-right: 7%;
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 1.4%;
+}
+
+.foto{
+    margin: 0px;
+    display: block;
+    float: left;
+    clear: both;
+}
+
+section .padel{
+    margin-top: 3%;
+    border-bottom: 1px solid black;
+}
+
+#clearfix{
+    clear: both;
+    float: none;
+    padding-top: 2%;
+}
+
+.textopadel p,
+.textolaliga p{
+    text-align: left;
+    justify-content: left;
+    letter-spacing: 0.1rem;
+    font-size: 1.3rem;
+    margin-top: 2%;
+    margin-left: 40%;
+}
+
+.textopadel a,
+.textolaliga a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.textopadel a:hover,
+.textolaliga a:hover{
+    text-decoration: none;
+    color: rgb(40, 98, 206);
 }
