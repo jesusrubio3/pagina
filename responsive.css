@@ -18,6 +18,11 @@
     
 }
 
+iframe{
+    width: 50%;
+    height: 50%;
+}
+
 
 }
 
@@ -38,5 +43,18 @@
     #about a{
         display: none;
         background-color: rebeccapurple;
+    }
+    iframe{
+        width: 50%;
+        height: 50%;
+    }
+    
+}
+
+
+@media (max-width:1186px){
+    iframe{
+        width: 50%;
+        height: 50%;
     }
 }
