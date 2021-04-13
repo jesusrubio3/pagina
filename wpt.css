@@ -180,7 +180,7 @@ body
 
 #contents {
     width: 80%;
-    height: 200vh;
+    min-height: 300vh;
     margin: 0px auto;
     margin-top: 3%;
     background-image: url(./imagenes/paven.png);
@@ -326,7 +326,7 @@ section h2{
 
 article{
     min-height: 40%;
-    border: 1px solid black;
+   
 }
 iframe{
     width:40rem;
