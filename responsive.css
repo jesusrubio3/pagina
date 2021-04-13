@@ -17,4 +17,26 @@
     height:60%;
     
 }
+
+
+}
+
+@media (max-width:754px){
+    #aside{
+        float: none;
+        width: 80%;
+        margin: 0px auto;
+    }
+    
+    section{
+        float: none;
+        margin: 0px auto;
+        width: 80%;
+    }
+
+    #about .icon-github,
+    #about a{
+        display: none;
+        background-color: rebeccapurple;
+    }
 }
