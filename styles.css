@@ -179,6 +179,7 @@ body
 }
 
 #contents {
+    overflow-y: scroll;
     width: 80%;
     min-height: 270vh;
     margin: 0px auto;
